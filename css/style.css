@@ -278,3 +278,80 @@ li {
 .discover-img {
   max-width: 100%;
 }
+/***********************************/
+/* How it work setion 2  */
+/***********************************/
+/* title the same for the section hero */
+.how-it-2nd-icons-card {
+  /* display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr; */
+  display: flex;
+  justify-content: center;
+  column-gap: 8rem;
+}
+.icon-content-card {
+  background: #ffffff;
+  box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.12), 0 0px 0px rgba(0, 0, 0, 0.24);
+  text-align: center;
+  line-height: 1.2;
+  padding: 3.2rem 3.2rem;
+}
+.icon-content-card img {
+  max-width: 100%;
+}
+.icon-number {
+  font-size: 3.2rem;
+  color: #0e1133;
+  font-weight: 500;
+}
+.icon-number-content {
+  font-size: 1.4rem;
+  text-transform: capitalize;
+}
+.media-promo {
+  position: relative;
+}
+.media-img {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 2.4rem;
+}
+.media-img img {
+  max-width: 100%;
+}
+.container-special-halv{
+width: 60rem;
+margin: 0 auto;
+padding: 0 3.2rem;
+}
+
+.media-content {
+  line-height: 1.6;
+}
+.video-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0e1133;
+}
+.video-description {
+  font-size: 1.4rem;
+}
+.get-started {
+  border: .5px solid rgba(14, 17, 51,.4);
+ border-radius: 2rem;
+ display: inline-block;
+ padding: .2rem 1.6rem;
+ font-size: 1.6rem;
+}
+
+.icon-left {
+  position: absolute;
+  right: 0%;
+  bottom: 80;
+}
+.icon-media {
+  background-color: #fff;
+  height: 4.4rem;
+  width: 4.4rem;
+}

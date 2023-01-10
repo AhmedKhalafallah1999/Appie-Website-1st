@@ -58,6 +58,11 @@ body {
   margin: 0 auto;
   padding: 0 3.2rem;
 }
+.container-special{
+  width: 100rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
 a {
   text-decoration: none;
   color: #41456e;

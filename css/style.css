@@ -24,6 +24,7 @@ li {
 /* Hero Section  */
 /***********************************/
 .section-hero {
+  position: relative;
   background-color: rgba(238, 241, 246, 255);
   display: flex;
   align-items: center;
@@ -63,10 +64,14 @@ li {
   font-size: 3.6rem;
 }
 .hero-img img {
-  max-width: 100%;
-  width: 180rem;
-  height: 40rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  max-width: 60%;
+  /* display: flex;
+  justify-content: flex-end; */
 }
+
 /***********************************/
 /* How it works Section  */
 /***********************************/
@@ -203,4 +208,73 @@ li {
 .feature-tilte {
 }
 .feature-description {
+}
+
+/***********************************/
+/* Discover Section  */
+/***********************************/
+
+.discover-section {
+  background-color: #0e1133;
+}
+.discover-title {
+}
+.primary-title-discover {
+  text-align: center;
+  font-size: 4.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #ffffff;
+}
+.title-desctiption {
+  text-align: center;
+  color: #f0f1f7;
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+.discover-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cards-discover {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+.card-discover {
+  display: flex;
+  align-items: baseline;
+  gap: 1.2rem;
+  border: 0.1px solid rgba(238, 240, 243, 0.1);
+  border-radius: 5px;
+  padding: 2.4rem 2.4rem;
+}
+.icon-card-discover {
+  /* background-color: rgb(255, 62, 102); */
+  border-radius: 50%;
+}
+.one {
+  background-color: rgb(255, 62, 102);
+}
+.two {
+  background-color: #2eacfc;
+}
+.three {
+  background-color: #33c956;
+}
+.sub-content-card {
+}
+.title-card {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #fff;
+}
+.content-description {
+  font-size: 1.6rem;
+  line-height: 2;
+  color: #41456e;
+}
+.discover-img {
+  max-width: 100%;
 }

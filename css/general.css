@@ -78,9 +78,17 @@ a {
 .padding-bottom-medium {
   padding-bottom: 3.2rem;
 }
+.padding-top-large {
+  padding-top: 6.4rem;
+}
+
 .padding-top-medium {
   padding-top: 3.2rem;
 }
+.padding-bottom-large {
+  padding-bottom: 6.4rem;
+}
+
 .padding-bottom-small {
   padding-bottom: 1.6rem;
 }

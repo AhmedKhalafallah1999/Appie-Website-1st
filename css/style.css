@@ -592,15 +592,14 @@ li {
 /* Footer section  */
 /***********************************/
 .section-footer {
-  background-color: #eef1f6;
+  background-color: hsl(218, 31%, 95%);
   color: #0e1133;
-  border-bottom: 2px solid #e3e7ed;
-
 }
 .main-col {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
- 
+  border-bottom: 2px solid #e3e7ed;
+  gap: 12.8rem;
 }
 .first-col {
   line-height: 1.6;
@@ -609,10 +608,10 @@ li {
   font-size: 1.4rem;
   padding-bottom: 1rem;
 }
-.read-more{
+.read-more {
   font-weight: 700;
 }
-.logo-icons-social{
+.logo-icons-social {
   padding-top: 2.4rem;
 }
 .fa-brands {
@@ -620,13 +619,11 @@ li {
   background: #ffffff;
   box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.12), 0 0px 0px rgba(0, 0, 0, 0.24);
   text-align: center;
-  padding: .8rem;
-  border-radius: .5rem;
-  
-
+  padding: 0.8rem;
+  border-radius: 0.5rem;
 }
-.icon-face{
-  padding: .8rem 1rem;
+.icon-face {
+  padding: 0.8rem 1rem;
 }
 .second-col {
   display: grid;
@@ -654,13 +651,13 @@ li {
   align-items: center;
   gap: 1rem;
   font-size: 1.4rem;
-  padding-bottom: .8rem;
+  padding-bottom: 0.8rem;
 }
 .contact-icon {
   color: #859ff9;
 }
-.contact-special{
-  align-items:flex-start
+.contact-special {
+  align-items: flex-start;
 }
 .email {
 }
@@ -670,4 +667,41 @@ li {
 }
 .location {
 }
-
+/* ************************** */
+/* Sub Footer */
+/* ************************** */
+.sub-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icons--content {
+  display: flex;
+  gap: 2.4rem;
+}
+.btn-sub-footer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.download-icon-apple {
+  height: 2rem;
+  width: 2rem;
+}
+.download-icon-google {
+  height: 2rem;
+  width: 2rem;
+}
+.btn1 {
+  background-color: #fff;
+  padding: 1.2rem;
+  border-radius: 0.8rem;
+}
+.btn2 {
+  border: 2px solid #e3e7ed;
+  padding: 1.2rem;
+  border-radius: 0.8rem;
+}
+.copyright p {
+  font-size: 1.6rem;
+}

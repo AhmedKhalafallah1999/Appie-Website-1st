@@ -70,6 +70,7 @@ body {
 
 }
 a {
+  cursor: pointer;
   text-decoration: none;
   color: #41456e;
   font-size: 1.6rem;

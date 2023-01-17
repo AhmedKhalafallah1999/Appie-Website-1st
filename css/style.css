@@ -47,6 +47,7 @@ li {
 }
 .hero-description {
   font-size: 1.6rem;
+  color: #0e1133;
 }
 .customer-images {
   display: flex;
@@ -65,9 +66,11 @@ li {
   flex-direction: column;
   align-items: center;
   font-size: 1.6rem;
+  color: #0e1133;
 }
 .number {
   font-size: 3.6rem;
+  color: #0e1133;
 }
 .hero-img img {
   position: absolute;
@@ -155,7 +158,6 @@ li {
 .btn-feature {
   transition: 0.3s ease;
 }
-.cards-col:hover .card-info,
 .card-info:hover,
 .btn-feature:hover {
   background-color: #ff3e66;
@@ -418,10 +420,12 @@ li {
   line-height: 1.2;
 }
 .card-1 {
+  cursor: pointer;
   background-color: #0e1133;
   color: #fff;
 }
 .card-2 {
+  cursor: pointer;
   background-color: #ffffff;
   border: 2px solid #0e1133;
 }
@@ -794,11 +798,13 @@ li {
   width: 2rem;
 }
 .btn1 {
+  cursor: pointer;
   background-color: #fff;
   padding: 1.2rem;
   border-radius: 0.8rem;
 }
 .btn2 {
+  cursor: pointer;
   border: 2px solid #e3e7ed;
   padding: 1.2rem;
   border-radius: 0.8rem;
@@ -807,6 +813,7 @@ li {
   font-size: 1.6rem;
 }
 .bottom-footer {
+  cursor: pointer;
   position: absolute;
   right: -2%;
   background-color: #f3b8c8;

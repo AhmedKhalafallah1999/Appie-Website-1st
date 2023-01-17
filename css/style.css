@@ -106,13 +106,18 @@ li {
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 2.4rem;
+  gap: 3.2rem;
 }
 .cards-col {
   border: 2px solid #eef0f3;
   border-radius: 1rem;
   padding: 3.2rem;
+  transition: 0.3s ease;
 }
+.cards-col:hover {
+  transform: scale(1.1);
+}
+
 .card-icon {
   font-size: 1.8rem;
   color: #fff;
@@ -146,8 +151,20 @@ li {
   font-size: 1.6rem;
   line-height: 1.6;
 }
-.card-info {
+.card-info,
+.btn-feature {
+  transition: 0.3s ease;
 }
+.cards-col:hover .card-info,
+.card-info:hover,
+.btn-feature:hover {
+  background-color: #ff3e66;
+  color: #fff;
+  font-weight: 700;
+  padding: 1.2rem 2.4rem;
+  border-radius: 3.2rem;
+}
+
 .marketing {
   display: flex;
   align-items: center;
@@ -522,13 +539,13 @@ li {
   padding: 3.2rem;
   transition: 0.4s all;
 }
-.special-hover:hover .get-started {
+.pricing-card:hover .get-started {
   background-color: #ff3e66;
   color: #fff;
   font-weight: 700;
   border: none;
 }
-.special-hover:hover {
+.pricing-card:hover {
   border-top: 3px solid #ff3e66;
   background: #ffffff;
   box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.12), 0 0px 0px rgba(0, 0, 0, 0.24);

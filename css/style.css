@@ -616,7 +616,7 @@ li {
 
 .section-review {
   background: url(../img/review.jpeg);
-  height: 50%;
+  /* height: 50%; */
   display: flex;
   position: relative;
 }
@@ -652,10 +652,12 @@ li {
 }
 .By {
   font-weight: 700;
+  
 }
 .jop {
   font-size: 1.2rem;
   color: #f0f1f7;
+  
 }
 .icon-review {
   position: absolute;

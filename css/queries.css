@@ -50,7 +50,7 @@ instead, 1rem = 1 em = 16px */
   }
   /* How does it work */
   .how-it-section {
-    width: 100%;
+    max-width: 100%;
   }
   .section-title {
     text-align: center;
@@ -94,27 +94,54 @@ instead, 1rem = 1 em = 16px */
     align-items: flex-start;
   }
   /* Section Discover */
-  .discover-section {
+  .discober-sub {
+    max-width: 100%;
   }
   .discover-content {
     flex-direction: column;
     align-items: flex-start;
   }
+  .cards-discover {
+    align-items: center;
+  }
   .discover-content img {
-    display: flex;
-    
-  
-    transform: scale(0.7);
+    /* display: flex; */
+    /* justify-content: center; */
+    transform: scale(0.8);
   }
-  .primary-title-discover,
-  .title-desctiption {
-    text-align: left;
+  /* How it work 2 */
+  .how-it-2nd-icons-card {
+    flex-direction: column;
+    gap: 3.2rem;
   }
-  .primary-title-discover br {
+  .how-it-2nd {
+    max-width: 100%;
+  }
+  .media-img {
+    grid-template-columns: 1fr;
+    row-gap: 3.2rem;
+  }
+  .icon-left {
     display: none;
   }
-  .discover-title {
-    /* align-items: flex-start; */
+  /* Pricing */
+  .section-pricing {
+    max-width: 100%;
+  }
+  .pricing-cards {
+    grid-template-columns: 1fr;
+  }
+  /* Review */
+  .section-review {
+    text-align: center;
+    max-width: 100%;
+  }
+  .section-content-review {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .icon-review {
+    display: none;
   }
 }
 

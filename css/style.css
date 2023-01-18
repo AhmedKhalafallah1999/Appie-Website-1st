@@ -616,7 +616,7 @@ li {
 
 .section-review {
   background: url(../img/review.jpeg);
-  /* height: 50%; */
+  height: 50%;
   display: flex;
   position: relative;
 }

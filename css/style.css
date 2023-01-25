@@ -675,22 +675,18 @@ li {
 /***********************************/
 /* Platform section  */
 /***********************************/
-
 .text-platform-heading {
   line-height: 1.4;
 }
 .first-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4.2rem;
+  justify-content: center;
 }
-.first-row img,
-.second-row img {
+.first-row img{
   /* background inherit from how it work section */
   border-radius: 1rem;
-}
-.second-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 /***********************************/
 /* Footer section  */

@@ -49,7 +49,7 @@ instead, 1rem = 1 em = 16px */
     display: none;
   }
   /* Hero */
-  .section-hero{
+  .section-hero {
     height: 80vh;
   }
   /* How does it work */
@@ -112,7 +112,7 @@ instead, 1rem = 1 em = 16px */
   .primary-title-discover {
     font-size: 3.4rem;
   }
-  
+
   /* How it work 2 */
   .how-it-2nd-icons-card {
     flex-direction: column;
@@ -153,19 +153,6 @@ instead, 1rem = 1 em = 16px */
   .company-responsive {
     max-width: 100%;
   }
-  .first-row {
-    grid-template-columns: 12rem 12rem 12rem;
-    gap: 2.4rem;
-  }
-  .second-row {
-    grid-template-columns: 12rem 12rem 12rem;
-    gap: 2.4rem;
-    width: 100rem;
-    padding: 0;
-  }
-  .last-img {
-    grid-column: -3/-2;
-  }
   /* Footer */
   .supp {
     text-align: center;
@@ -179,29 +166,27 @@ instead, 1rem = 1 em = 16px */
     grid-template-columns: 1fr;
     gap: 2.4rem;
   }
-  .href-content{
-    margin-left: 20rem;
-  }
-  .contact-special{
-    margin-left: 12rem;
-  }
   .location br {
     display: none;
   }
-
+  .third-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .sub-footer {
     flex-direction: column;
     align-items: flex-start;
   }
   .icons--content {
     margin-left: 5rem;
-  
+
     padding-bottom: 3.2rem;
   }
   .sub-footer {
     display: block;
   }
-  }
+}
 
 /* 
 - Font sizes (px)

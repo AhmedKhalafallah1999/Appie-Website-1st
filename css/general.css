@@ -107,3 +107,6 @@ button{
   border: none;
 
 }
+.list-bar{
+  display: none;
+}

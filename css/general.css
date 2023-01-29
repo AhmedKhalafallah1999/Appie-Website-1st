@@ -59,24 +59,26 @@ body {
   margin: 0 auto;
   padding: 0 3.2rem;
 }
-.container-special{
+.container-special {
   width: 100rem;
   margin: 0 auto;
   padding: 0 3.2rem;
 }
-.container-special-2{
+.container-special-2 {
   width: 62.4rem;
   margin: 0 auto;
   padding: 0 3.2rem;
-
 }
 a {
   cursor: pointer;
   text-decoration: none;
   color: #41456e;
   font-size: 1.6rem;
+  transition: 0.3s ease;
 }
-
+.main-nav-list a:hover {
+  color: #ea4d89;
+}
 .padding-bottom-medium {
   padding-bottom: 3.2rem;
 }
@@ -103,10 +105,9 @@ a {
 .margin-bottom-medium {
   margin-bottom: 3.2rem;
 }
-button{
+button {
   border: none;
-
 }
-.list-bar{
+.list-bar {
   display: none;
 }

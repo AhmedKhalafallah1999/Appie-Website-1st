@@ -347,6 +347,9 @@ instead, 1rem = 1 em = 16px */
 
 @media (max-width: 34em) {
   /* Navigation */
+  .hero-email-input input{
+    width: 100%;
+  }
   .main-nav-hide {
     display: none;
   }
@@ -370,7 +373,7 @@ instead, 1rem = 1 em = 16px */
   }
   /* Hero */
   .section-hero {
-    height: 90vh;
+    height: 100vh;
   }
   /* How does it work */
   .how-it-section {
